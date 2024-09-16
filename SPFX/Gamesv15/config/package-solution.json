@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "gamesv-15-client-side-solution",
+    "id": "cddbac4e-cc16-4ac5-b6c8-3d2143e89927",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "gamesv-15 description"
+      },
+      "longDescription": {
+        "default": "gamesv-15 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "gamesv-15 Feature",
+        "description": "The feature that activates elements of the gamesv-15 solution.",
+        "id": "681c6bc0-9dc6-4693-8b1b-021be10e0d63",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/gamesv-15.sppkg"
+  }
+}

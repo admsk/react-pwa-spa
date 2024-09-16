@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "fundamentos-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/fundamentos/FundamentosWebPart.js",
+          "manifest": "./src/webparts/fundamentos/FundamentosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FundamentosWebPartStrings": "lib/webparts/fundamentos/loc/{locale}.js"
+  }
+}

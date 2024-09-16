@@ -1,0 +1,71 @@
+<div>
+
+  <div id="buscaTermo" class="row input-group input-group-lg mb-4">
+    <div class="col-md-6">
+      <select id="ddlPais" class="form-control mr-2 selectPais">
+        <option value="">Selecione</option>
+        <option value="1">Brasil</option>
+        <option value="2">França</option>
+        <option value="3">Argentina</option>
+      </select>
+      <input id="txtFornecedor" type="text" class="form-control rounded mr-2 inputFornecedor" placeholder="Nome do fornecedor"
+        aria-label="" aria-describedby="button-addon2">
+    </div>
+    <div class="col-md-6" id="divBotoes">
+      <a href="#" class="btn btn-md active btn-Fornecedor" id="btnBuscar">
+        <span class="icon text-white-50">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="text"> Pesquisar</span>
+      </a>
+      <a href="CadastraFornecedor.aspx" data-interception="off" class="btn btn-md active btn-Fornecedor ml-2"
+        id="novoAcervo">
+        <span class="icon text-white-50">
+          <i class="far fa-plus-square"></i>
+        </span>
+        <span class="text"> Novo</span>
+      </a>
+
+    </div>
+  </div>
+  
+  <div class="h80 aligncenter" id="carregando" style="display:none;"><img class="pti-img img-fluid" src="../../stylelibrary/images/loading.gif" />
+  </div>
+
+  <div class="h30 aligncenter" id="semResultados" style="display: none;">
+    <p>Nenhum resultado a ser exibido!</p>
+  </div>
+
+  <div id="conteudoBusca" style="display: none;">
+    <div class="resultado">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="thead-light ">
+            <tr>
+              <th scope="col">Fornecedor</th>
+              <th scope="col">País</th>
+              <th scope="col">CNPJ</th>
+              <th scope="col">Telefone</th>
+              <th scope="col">E-mail</th>
+              <th scope="col">Ativo</th>
+              <th scope="col">Ação</th>
+            </tr>
+          </thead>
+          <tbody id="tableResultado">
+          </tbody>
+        </table>
+        <div class="col-md-12 text-center">
+          <button type="button" id="btnVoltar" class="btn btn-Fornecedor">
+              <i class="fa fa-arrow-left mr-2" aria-hidden="true"></i>Anterior
+          </button>
+          <button type="button" id="btnAvancar" class="btn btn-Fornecedor ml-2">
+            Próximo<i class="fa fa-arrow-right ml-2" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div class="holder">
+      </div>
+    </div>
+  </div>
+
+</div>

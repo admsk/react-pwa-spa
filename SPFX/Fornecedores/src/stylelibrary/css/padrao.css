@@ -1,0 +1,295 @@
+.labelDesc {
+  height: 3rem;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  justify-content: flex-end;
+  padding-right: 0.5rem;
+}
+
+.Componentes {
+  height: 3rem;
+  margin: 0rem;
+  padding: 0px;
+}
+
+.Componentes-MultLine {
+  min-height: 2rem;
+  margin: 0rem;
+  padding: 0px;
+  margin-top: 0.5rem;
+}
+
+.rodapeForm {
+  margin-top: 0.5rem;
+  justify-content: flex-end;
+}
+
+.rodapeForm > button {
+  margin-left: 0.5rem;
+  justify-content: flex-end;
+}
+
+.btnPadrao, .btnPadrao:active {
+  background-color: #484644;
+  color: white;
+}
+
+.btnPadrao:hover {
+  background-color: #8e867e;
+  border-color: #8e867e;
+  color: white;
+}
+
+.tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #484644;
+  padding: 30px 25px;
+}
+
+.nav-tabs {
+  border: none;
+  color: #fff;
+  background: white;
+}
+
+.nav-tabs .nav-link {
+  border: none;
+  color: #fff;
+  background: #8e867e;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.nav-tabs .nav-link.active {
+  border: none;
+  color: #fff;
+  background: #484644;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.formPadrao {
+  min-height: 600px;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.foto {
+  width: 50px
+}
+
+.titulo{
+  font-size: 24px;
+  font-weight: 100;
+  color: #323130;
+}
+
+
+/*tabs cadastro fornecedor*/
+#tabsJustifiedContent
+{
+  min-width: 1250px
+}
+
+/*css tela de busca*/
+#buscaTermo
+{
+  width: 1000px !important
+}
+
+.selectPais{
+  width: 200px;
+  float: left;
+}
+
+.inputFornecedor
+{
+  width: 250px;
+  float: left;
+}
+
+.modal
+{
+  position: relative !important;
+  top: -185px !important;
+}
+.novoBotao{
+  position: relative;
+    right: -114px;
+    top: -38px;
+}
+.HeaderModal {
+  background-color: #0060a4;
+  color: white;
+}
+
+.HeaderModal-danger {
+  color: #fff;
+  background-color: #d9534f;
+}
+
+.ModalMsg {
+  padding: 1rem;
+}
+.ModalMsg > p {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.ModalMsg > ul {
+  display: block;
+  font-size: 0.8rem;
+}
+
+.btnFornecedor {
+  background-color: #0065a4;
+  color: white;
+}
+.btnFornecedor:hover {
+  background-color: #00a6eb;
+  border-color: #00a6eb;
+  color: white;
+}
+a.btn-Fornecedor:hover {
+  color: #fff;
+}
+
+h2 spam {
+  color: #337ab7;
+  font-size: 18px;
+  line-height: 5px;
+}
+
+.btn-Fornecedor {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+  transition: 0.5s;
+}
+.btn-Fornecedor:hover {
+  background-color: #286090;
+  color: #fff;
+  border-color: #204d74;
+  transition: 0.5s;
+}
+.btn-Fornecedor :not(:disabled):not(.disabled):active,
+.show > .btn-Fornecedor .dropdown-toggle {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #337ab7;
+}
+
+.ajusteTextoCentro {
+  vertical-align: middle !important;
+}
+.AjustaImagem {
+  width: 130px !important;
+  height: 130px !important;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  align-content: center;
+  background-color: white;
+  position: relative;
+}
+.img-thumbnail {
+  max-width: 128px !important;
+  max-height: 128px !important;
+  border: none;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  width: auto;
+}
+.resultado table tbody {
+  font-size: 16px;
+  color: #666;
+}
+
+.link {
+  background-color: #337ab7;
+  width: 60px;
+  height: 60px;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 37px;
+  border: 1px solid #337ab7;
+  transition: 0.5s;
+}
+
+.link:hover {
+  background-color: #286090;
+  color: #fff;
+  border-color: #204d74;
+  transition: 0.5s;
+}
+
+.ajusteColunaTabela {
+  width: 80px;
+  vertical-align: middle !important;
+}
+
+.titAcervo {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #666;
+  float: left;
+}
+
+.titTipo {
+  float: left;
+  margin-left: 8px;
+  margin-top: 19px;
+  font-size: 26px;
+  color: #337ab7;
+  font-style: italic;
+}
+
+.min200 {
+  min-height: 200px;
+}
+
+.h80 {
+  height: 80px;
+  vertical-align: top;
+}
+
+.h30 {
+  height: 30px;
+  vertical-align: top;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.busca {
+  font-size: 16px;
+}
+
+.col_botoes {
+  padding-top: 28px;
+}
+
+.container {
+  min-height: 160px !important;
+}
+
+

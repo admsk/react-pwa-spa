@@ -1,0 +1,14 @@
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/bin/Debug/net8.0/abstrata
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/bin/Debug/net8.0/abstrata.deps.json
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/bin/Debug/net8.0/abstrata.runtimeconfig.json
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/bin/Debug/net8.0/abstrata.dll
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/bin/Debug/net8.0/abstrata.pdb
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.GeneratedMSBuildEditorConfig.editorconfig
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.AssemblyInfoInputs.cache
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.AssemblyInfo.cs
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.csproj.CoreCompileInputs.cache
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.dll
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/refint/abstrata.dll
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.pdb
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/abstrata.genruntimeconfig.cache
+/home/amendes/Documents/lab/NET Core/Classes/abstrata/obj/Debug/net8.0/ref/abstrata.dll

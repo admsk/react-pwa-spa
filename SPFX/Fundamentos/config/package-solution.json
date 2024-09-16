@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "fundamentos-client-side-solution",
+    "id": "b0b095ac-5dde-435f-9869-4938a9ec7f01",
+    "version": "1.4.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "fundamentos description"
+      },
+      "longDescription": {
+        "default": "fundamentos description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "fundamentos Feature",
+        "description": "The feature that activates elements of the fundamentos solution.",
+        "id": "14be9d30-2c16-4b0b-ab8c-a5cd24fef68d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/fundamentos.sppkg"
+  }
+}

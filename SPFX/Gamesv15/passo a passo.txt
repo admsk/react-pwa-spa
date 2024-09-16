@@ -1,0 +1,29 @@
+------------------------------------
+instalar ambiente spfx com nvm p/ windows
+nodejs 14
+spfx 15.2
+------------------------------------
+
+--os dois comandos abaixo instalam o node 14 e definem ele como principal usando o nvm
+nvm install 14.17.4
+nvm use 14.17.4
+
+--os pacotes abaixo são os necessários para o seu ambiente spfx
+npm install gulp-cli@2.3.0 --global
+npm install yo@4.3.1 --global
+npm install typescript@4.5.5 --global
+npm install @microsoft/generator-sharepoint@1.15.2 --global
+
+--baixe o zip do projeto anexo a essa aula e faça o npm install
+npm install
+
+--executar apenas para o primeiro projeto criado no ambiente, isso ira criar o seu certificado
+gulp trust-dev-cert
+
+--altere o arquivo da pasta config/serve.json, modificando o atributo initialPage
+para o seu site, basta trocar o nome o NOMETENANT e o NOMESITE, o resto pode manter a mesma url
+
+--para executar o projeto
+gulp serve
+
+--Adicione a webpart chamada HomeGames a sua pagina
