@@ -1,0 +1,246 @@
+/* Estilos do menu lateral */
+.sidebar {
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  transition: left 0.3s ease;
+  overflow-x: visible;
+  padding-top: 60px;
+}
+
+
+
+.sidebar.open {
+  left: 0;
+}
+
+
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 15px;
+  text-align: left;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.sidebar ul li a:hover {
+  background-color: #575757;
+}
+
+.toggle-btn {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+  overflow-x: visible !important;
+  background-color: #444;
+  transform: translateX(-100%);
+
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-btn-closed {
+  position: absolute;
+  top: 20px;
+  left: 260px;
+  overflow-x: visible !important;
+  background-color: #444;
+  transform: translateX(-100%);
+
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-btn:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar.open~.content {
+  margin-left: 200px;
+}
+
+.imgMenu {
+  width: 37px;
+  margin-left: 53px;
+  top: 21px;
+  position: absolute;
+}
+
+.imgMenu-closed {
+  width: 37px;
+  margin-left: 101px;
+  top: 6px;
+  position: absolute;
+}
+/* Container principal que usa flexbox */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 20px;
+}
+
+.title {
+  background-color: #555;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 40px); /* Flexível para ocupar metade do espaço */
+color: #fff;
+font-size: xx-large;
+}
+
+/* Estilos para os cards individuais */
+.card {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex: 1 1 calc(50% - 40px); /* Flexível para ocupar metade do espaço */
+  min-width: 300px; /* Limite mínimo de largura para garantir responsividade */
+}
+
+/* Estilização de texto */
+.card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Responsividade para telas pequenas */
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* Ocupa 100% do espaço em telas pequenas */
+  }
+  .imgMenu-closed {
+    width: 30px;
+  }
+  .imgMenu {
+    width: 30px;
+  }
+
+  .sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: rgba(204, 204, 204, 0.9);
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: left 0.3s ease;
+    overflow-x: visible;
+    padding-top: 60px;
+  }
+  .sidebar ul li a {
+    color: #575757;
+    /* text-decoration: none;
+    display: block; */
+  }
+}
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #444;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #555;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.horse-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.horse-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px; /* Definindo altura fixa */
+}
+
+.horse-item img {
+  width: 100%;
+  height: 150px; /* Definindo altura fixa para a imagem */
+  object-fit: cover; /* Faz a imagem cobrir o espaço disponível sem distorção */
+  border-bottom: 1px solid #ddd;
+}
+
+.horse-item p {
+  margin: 10px 0 0;
+  font-size: 14px;
+  color: #666;
+}
