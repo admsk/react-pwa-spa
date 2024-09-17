@@ -9,34 +9,22 @@ Este caso de estudo exemplifica duas abordagens de desenvolvimento de aplicaçõ
 - [PWA (Progressive Web App)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps)
 - [SPA (Single Page Application)](https://developer.mozilla.org/en-US/docs/Glossary/SPA)
 
-**Regras de aceitação para o sorteio **
-
-
-1. Renda entre R$ 1.045,00 a R$ 5.225,00.
-
-1. CPF precisa ser valido.
-
-1. Idade maior de 15 anos.
-
-
-1. Regra especial para cota de IDOSO a pessoa precisa ter idade superior 60 anos.
-1. Regra especial para cota de DEFICIENTE FÍSICO a pessoa precisa ter informado o número do CID.
-
 
 # Tecnologias 
-Para o desenvolvimento da solução foi utilizado ASP.NET CORE 8 e ASP.NET MVC 8 com React.
+React
 
 ## Iniciando...
 Para compilação da aplicação, primeiro é necessário realizar o clone do projeto ou baixa-lo para a sua máquina.
 Siga as intruções abaixo:
-
 Para clonar: 
 
 Abra um terminal no seu computador
+
 Navegue até um diretório da sua escolha
+
 Digite o comando: 
 
-git@gitlab.com:admsk/mcmvappapi.git
+git clone git@github.com:admsk/react-pwa-spa.git
 
 Depois de clonado ou baixado navegue até a pasta criada
 
@@ -44,16 +32,23 @@ Digite  o comando:
 
 cd [pasta criada]
 
-Digite o comando para abrir o VSCode para visualizar o projeto e os seus arquivos
+Ainda dentro da pasta criada, agora com todos os arquivos, instale as dependencias: 
+digite
+
+npm install
+
+Abra o projeto caso queira visualizar o projeto e os seus arquivos
 
 code .
 
+digite npm start
 
+Se a aplicação não abrir automaticamente no browser, abra manualmente informando  http://localhost:3000 no browser.
 
 ## Pré-requisitos
-É necessário que o .NET CORE 8 esteja instalado na sua máquina se não tiver, é necessário primeiro realizar esta ação para dar continudade ao processo de compilação dos projetos
+Estou considerando que você já tenha o node instalado na sua máquina, mas caso não tenha, baixo-o e instale.
 
-![.NET Core](https://dotnet.microsoft.com/pt-br/download/dotnet/8.0)
+![NODE]([https://dotnet.microsoft.com/pt-br/download/dotnet/8.0](https://nodejs.org/en/about/previous-releases))
 
 ## Compilar e executar os projetos - [VSCODE] 
 Usar o VSCode
