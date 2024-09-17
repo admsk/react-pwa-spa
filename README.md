@@ -13,9 +13,10 @@ Este caso de estudo exemplifica duas abordagens de desenvolvimento de aplicaçõ
 # Tecnologias 
 React
 
-## Iniciando...
+## Compilando a aplicação pelo terminal
 Para compilação da aplicação, primeiro é necessário realizar o clone do projeto ou baixa-lo para a sua máquina.
 Siga as intruções abaixo:
+
 Para clonar: 
 
 Abra um terminal no seu computador
@@ -33,6 +34,7 @@ Digite  o comando:
 cd [pasta criada]
 
 Ainda dentro da pasta criada, agora com todos os arquivos, instale as dependencias: 
+
 digite
 
 npm install
@@ -50,45 +52,27 @@ Estou considerando que você já tenha o node instalado na sua máquina, mas cas
 
 ![NODE]([https://dotnet.microsoft.com/pt-br/download/dotnet/8.0](https://nodejs.org/en/about/previous-releases))
 
-## Compilar e executar os projetos - [VSCODE] 
-Usar o VSCode
+## Compilando a aplicação em um container pelo docker
+Abra o  terminal e navegue até o local onde o projeto foi clonado.
 
-Depois de atender ao pré-requisitos, estamos prontos para continuar.
+Crie a imagem do container com o comando abaixo:
 
-Dentro da pasta criada, execute os comandos 
-abaixo para subir a api.
+Docker build -t react-spa-pwa:1.0 .
 
-dotnet run --project mcmvc.api
+Aguarde a imagem ser criada
 
-Acesse http://localhost:5094/participantes/all para ver os registros sendo trazidos pela api.
+Para ver as suas imagens criadas, execute o comando abaixo:
 
+docker images
 
-Digite o comando abaixo para subir a aplicação.
+Agora vamos executar a aplicação através do container
 
-dotnet run --project mcmv.web
+docker container run -p 3000:3000 react-spa-pwa:1.0
 
-Aguarde a aplicação ser carregada ou acesse 
-https://localhost:44441/
+Aguarde o processo ser finalizado. As Urls para acesso serão exeibidas na saida do terminal, parecida com as linhas abaixo, basta acessar a url e navegar na aplicação.
+  Local:            http://localhost:3000
+  On Your Network:  http://172.17.0.2:3000
 
-NOTA: Aguarde a aplicação ser carregada, pode ser que demore alguns segundos entre a compilação e a renderização.
-
-Logo abaixo, algumas evidencias poderão ser visualizadas.
-
-## Executar testes unitarios - [VISUAL STUDIO] 
-Usar o Visual Studio (Preferencialmente o 2022)
-
-Abra o projeto com o visual studio
-Navegue até a aba "Test" e clique em "Run All Tests"
-
-Na Janela que aparecerá ao lado o resultado dos testes serão exibidos.
-
-## Evidências
-
-
-[API](https://gitlab.com/admsk/mcmvappapi/-/blob/master/mcmv.web/ClientApp/imagens%20/endpoin-api-all.png?ref_type=heads)
-
-
-[APLICACAO](https://gitlab.com/admsk/mcmvappapi/-/blob/master/mcmv.web/ClientApp/imagens%20/Captura%20de%20tela%20de%202024-09-16%2009-12-13.png?ref_type=heads)
-
-
-[TESTES](https://gitlab.com/admsk/mcmvappapi/-/blob/master/mcmv.web/ClientApp/imagens%20/EvidenciaTestes.png?ref_type=heads)
+## Pré-requisitos
+É necessário que seja instalado o docker.
+![DOCKER]([https://docs.docker.com/desktop/install/windows-install/))
