@@ -1,0 +1,7 @@
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/BlazorTodoApp
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/appsettings.Development.json
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/appsettings.json
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/BlazorTodoApp.dll
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/BlazorTodoApp.deps.json
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/BlazorTodoApp.runtimeconfig.json
+/home/amendes/Documents/lab/Blazor/BlazorTodoApp/publish/BlazorTodoApp.pdb

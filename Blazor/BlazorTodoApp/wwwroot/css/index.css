@@ -1,0 +1,253 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f5f0;
+}
+
+.sidebar[b-wnyeraadta] {
+
+  background-image: linear-gradient(180deg, rgb(188, 164, 181) 0%, #bca483 50%);
+}
+
+header {
+  padding: 16px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+}
+
+header span{
+  color: black;
+}
+
+h1 {
+  margin: 0;
+}
+
+.banner {
+  text-align: center;
+  padding: 0px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: black !important;
+}
+
+.banner h2 {
+  font-size: 2.5rem;
+}
+
+.cardapio,
+.formulario {
+  padding: 5px 10px;
+}
+
+.formulario form input,
+.formulario form button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+  background-color: #73644F;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #ddd;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  color: white;
+  height: 65px;
+
+}
+
+.enviar-pedido {
+  position: sticky;
+  background-color: #6C9A8B;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+
+.button {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #915100;
+  font-size: x-large;
+}
+
+.button a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #FFA12B;
+  display: block;
+  position: relative;
+  padding: 20px 40px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+
+  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow: inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active {
+  top: 10px;
+  background-color: #F78900;
+
+  -webkit-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow: inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 13px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.highlight {
+  font-weight: bold;
+  color: #ff7b00;
+}
+
+.cta {
+  position: sticky;
+  background-color: #6C9A8B;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.cta:hover {
+  background-color: #c68c53;
+}
+
+.versao {
+  font-size: 10px;
+  color: darkkhaki;
+}
+
+
+/* Estilo para a pop-up */
+.popup {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fundo semi-transparente */
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #333;
+}
+
+.link-elegante {
+  color: #fff;
+  /* Azul discreto */
+  text-decoration: none;
+  /* Remove o sublinhado */
+  font-size: 14px;
+  /* Tamanho do texto moderado */
+  font-weight: 500;
+  /* Peso leve para destacar */
+  font-family: 'Arial', sans-serif;
+  /* Fonte limpa e profissional */
+  transition: color 0.2s ease;
+  /* Transição suave no hover */
+  cursor: pointer;
+  /* Mostra o cursor de clique */
+}
+
+.link-elegante:hover {
+  color: #0056b3;
+  /* Azul mais escuro no hover */
+  text-decoration: underline;
+  /* Adiciona sublinhado ao passar o mouse */
+}
+
+.link-elegante:active {
+  color: #003d80;
+  /* Azul ainda mais escuro ao clicar */
+}
+
+header h1 {
+  font-size: large;
+
+}
+
+.container-pedido {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 0 10px;
+}
+
+.blazor-error-ui {
+  display: none !important;
+}

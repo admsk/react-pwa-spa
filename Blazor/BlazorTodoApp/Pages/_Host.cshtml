@@ -1,0 +1,97 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Web
+@namespace BlazorTodoApp.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="~/" />
+    <meta name="theme-color" content="#bca483">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css?v=@DateTime.UtcNow.Ticks" />
+    <link href="css/site.css?v=@DateTime.UtcNow.Ticks" rel="stylesheet" />
+    <link href="BlazorTodoApp.styles.css?v=@DateTime.UtcNow.Ticks" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="icon" href="Assets/images/icon-32x32.jpg" sizes="32x32" type="image/jpg" />
+    <link rel="icon" href="Assets/images/icon-192x192.jpg" sizes="192x192" type="image/jpg" />
+    <link rel="apple-touch-icon" href="Assets/images/icon-180x180.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+        rel="stylesheet" />
+    <link href="css/installBlazor.css?v=@DateTime.UtcNow.Ticks" rel="stylesheet">
+    <link href="css/index.css?v=@DateTime.UtcNow.Ticks" rel="stylesheet">
+    <link href="css/pedidos.css?v=@DateTime.UtcNow.Ticks" rel="stylesheet">
+    <component type="typeof(HeadOutlet)" render-mode="ServerPrerendered" />
+
+
+</head>
+
+<body>
+    <component type="typeof(App)" render-mode="ServerPrerendered" />
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js?v=@DateTime.UtcNow.Ticks"></script>
+    <script src="globalConfig.js?v=@DateTime.UtcNow.Ticks"></script>
+    <script src="js/dayjs/dayjs.min.js?v=@DateTime.UtcNow.Ticks"></script>
+    <script src="js/config/installBlazor.js"></script>
+    <script src="js/index/index.js"></script>
+    <script src=" js/pedido/pedidos.js?v=@DateTime.UtcNow.Ticks"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+    <script>
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker
+                    .register('/service-worker.js')
+                    .then((registration) => {
+                        console.log('Service Worker registrado com sucesso:', registration.scope);
+                    })
+                    .catch((error) => {
+                        console.error('Erro ao registrar o Service Worker:', error);
+                    });
+            });
+        }
+
+        function requestFullscreen() {
+            const el = document.documentElement;
+            if (el.requestFullscreen) {
+                el.requestFullscreen();
+            } else if (el.webkitRequestFullscreen) { /* Safari */
+                el.webkitRequestFullscreen();
+            } else if (el.msRequestFullscreen) { /* IE11 */
+                el.msRequestFullscreen();
+            }
+        }
+        window.addEventListener('DOMContentLoaded', () => {
+            const observer = new MutationObserver(() => {
+                const errorBox = document.querySelector('[blazor-error-ui]');
+                if (errorBox) {
+                    errorBox.style.display = 'none'; // Oculta o banner de erro
+                }
+            });
+
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>

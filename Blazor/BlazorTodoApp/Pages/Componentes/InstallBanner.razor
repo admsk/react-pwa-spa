@@ -1,0 +1,43 @@
+@using BlazorTodoApp.Pages.Componentes
+@inject IJSRuntime JS
+
+@code {
+    private bool showBanner = false;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            var shouldShow = await JSRuntime.InvokeAsync<bool>("PWAUtils.shouldShowInstallBanner");
+            showBanner = shouldShow;
+            StateHasChanged();
+
+            if (shouldShow)
+            {
+                await Task.Delay(100);
+                await JSRuntime.InvokeVoidAsync("PWAUtils.autoHideBanner");
+            }
+        }
+
+
+    }
+
+    [Inject] private IJSRuntime JSRuntime { get; set; } = default!;
+}
+
+
+@* Components/InstallBanner.razor *@
+@if (showBanner)
+{
+    <div class="install-banner">
+        <img src="/Assets/images/wpp-4.png" alt="Lingua" class="logo" />
+        <div class="text-content">
+            <strong>Instalar Quero Pão:</strong><br />
+            <small>Praticidade, Melhor Preço e Qualidade</small>
+        </div>
+        <p>
+            <a id="confirmPopup" class="link-elegante install-link" onclick="installJustFirstTime();">Instalar</a>
+            <span class="versao"></span>
+        </p>
+    </div>
+}

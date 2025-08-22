@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorTodoApp
+build_property.RootNamespace = BlazorTodoApp
+build_property.ProjectDir = /home/amendes/Documents/lab/Blazor/BlazorTodoApp/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /home/amendes/Documents/lab/Blazor/BlazorTodoApp
+build_property._RazorSourceGeneratorDebug = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Aceite.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWNlaXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Componentes/CmpFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50ZXMvQ21wRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Componentes/InstallBanner.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tcG9uZW50ZXMvSW5zdGFsbEJhbm5lci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/MeusPedidos.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTWV1c1BlZGlkb3MucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Receitas.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVjZWl0YXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-wnyeraadta
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-w5aw3avuxl
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/amendes/Documents/lab/Blazor/BlazorTodoApp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

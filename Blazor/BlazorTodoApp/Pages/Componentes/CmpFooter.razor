@@ -1,0 +1,22 @@
+@inject IJSRuntime JS
+
+@* Components/Footer.razor *@
+<div style="display: flex; justify-content: center; gap: 100px;">
+  <button  onclick="window.location='/'" title="Início" style="background: none; border: none; padding: 0; cursor: pointer;">
+    <img src="Assets/images/icons-home.png"
+         style="width: 29px; height: 29px; border-radius: 30%; object-fit: cover; background: transparent;"
+         alt="Home Icon" />
+  </button>
+  
+  <button onclick="window.location='/MeusPedidos'" title="Pedidos" style="background: none; border: none; padding: 0; cursor: pointer;">
+    <img src="Assets/images/icon-compras-64.png"
+         style="width: 29px; height: 29px; border-radius: 30%; object-fit: cover; background: transparent;"
+         alt="Minhas Compras Icon" />
+  </button>
+  
+  <button onclick="window.location='/receitas'" title="Receitas e Dicas" style="background: none; border: none; padding: 0; cursor: pointer;">
+    <img src="Assets/images/icons-receitas.png"
+         style="width: 29px; height: 29px; border-radius: 30%; object-fit: cover; background: transparent;"
+         alt="Receitas Icon" />
+  </button>
+</div>

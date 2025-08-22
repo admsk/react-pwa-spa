@@ -1,0 +1,192 @@
+@page "/receitas"
+@using BlazorTodoApp.Pages.Componentes
+@inject IJSRuntime JS
+
+<PageTitle>Dicas</PageTitle>
+
+<style>
+.receitas-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 2px;
+  background-color: #f8f8f8;
+}
+
+.receita-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.receita-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.receita-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.receita-card h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.receita-card p {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.receita-card p:last-child {
+  margin-bottom: 0;
+}
+
+header {
+  padding: 16px 24px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.receita-card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #444;
+  line-height: 1.6;
+  transition: transform 0.3s ease;
+}
+
+.receita-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.receita-card h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.receita-card p {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #555;
+}
+
+.receita-card p:last-child {
+  margin-bottom: 0;
+}
+
+</style>
+
+ <header>
+    <h1>
+      <img src="Assets/images/pao-1.jpeg"
+        style="width: 40px; height: 40px;border-radius: 20%; object-fit: cover;background: transparent;margin-top: 0px;" />
+      <span style="margin-left: 10px; font-size: 24px; font-weight: 600;">Pãozinho na Porta </span>
+    </h1>
+  </header>
+  
+<div class="container-pedido">
+  <div class="banner">
+    <div class="container">
+      <div class="receitas-container">
+        @foreach (var r in receitas)
+        {
+          <div class="receita-card">
+            <img src="@r.ImagemUrl" alt="@r.Nome" />
+            <h3 class="card-title">@r.Nome</h3>
+            
+            <p class="card-description">@r.Comentario1</p>
+            <hr>
+            🤔 Curiosidade
+            <p class="card-details">@r.Comentario2</p>
+            <p class="card-details">@r.Comentario3</p>
+            <a href="@r.URL" target="_blank">Saiba mais ...</a>
+          </div>
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="sidebar">
+  <CmpFooter />
+</footer>
+
+@code {
+    private List<Receita> receitas = new()
+    {
+        new Receita {
+          ImagemUrl = "/Assets/images/pao-frances.jpeg",
+          Nome = "Pão Francês",
+          Comentario1 = "Apesar do nome, o pão francês como conhecemos hoje é uma criação brasileira inspirada em pães europeus (como a baguete), mas adaptada ao gosto local. Ele também é conhecido em algumas regiões do Brasil como pão de sal, pão careca, pão filão, pão cacetinho (no Sul), entre outros.",
+          Comentario2 = @"Estima-se que mais de 25 milhões de unidades de pão francês sejam consumidas diariamente no Brasil.",
+          Comentario3 =@"Já foi o vilão de dietas por causa dos carboidratos, mas em moderação, faz parte de uma alimentação equilibrada e saudável.",
+          URL = "https://www.abip.org.br/site/padarias-do-brasil-comemoram-dia-mundial-do-pao-neste-16-de-outubro/?utm_source=chatgpt.com"
+        },
+
+        new Receita {
+          ImagemUrl = "/Assets/images/broa-artigo.jpeg",
+          Nome = "Broa",
+          Comentario1 = @"A broa de milho é um pão tradicional da culinária brasileira, especialmente popular em regiões do interior e em festas juninas. Sua origem remonta à influência portuguesa, mas ao longo do tempo, foi adaptada com ingredientes locais, como o fubá (farinha de milho), resultando em um sabor único e acolhedor.",
+          Comentario2 = @"Você sabia que a palavra 'broa' vem do termo galego-português 'broa', que se referia a um pão rústico feito com farinha de milho ou centeio? Quando os portugueses chegaram ao Brasil, encontraram o milho como alimento abundante entre os povos indígenas — e passaram a usá-lo em substituição ao centeio, dando origem à broa brasileira que conhecemos hoje.",
+          Comentario3 = @"",
+          URL = "https://blog.praticabr.com/broa-de-milho-conheca-este-quitute-brasileiro?utm_source=chatgpt.com"
+        },
+        new Receita {
+          ImagemUrl = "/Assets/images/bolo-de-milho.jpeg",
+          Nome = "Bolo de Milho",
+          Comentario1 = @"O bolo de milho natural é uma receita tradicional brasileira feita com milho fresco debulhado da espiga, sem adição de farinhas refinadas. É especialmente popular nas festas juninas e em receitas caseiras do interior do Brasil. Tem sabor marcante, textura úmida e é naturalmente adocicado.",
+          Comentario2 = @"Você sabia que o bolo de milho natural, feito diretamente com os grãos da espiga, era uma das receitas preferidas dos tropeiros e viajantes do interior do Brasil colonial? Isso porque o milho era fácil de transportar e preparar, e o bolo durava mais tempo por ser úmido e denso, ideal para longas viagens.",
+          Comentario3 =@"Além de ser uma opção mais saudável, o uso do milho natural preserva os nutrientes, como fibras, antioxidantes e vitaminas do complexo B, tornando o bolo mais nutritivo.",
+          URL = "https://www.ibge.gov.br/explica/producao-agropecuaria/milho-em-grao/br"
+        },
+
+    };
+
+    public class Receita
+    {
+        public string Nome { get; set; }
+        public string Comentario1 { get; set; }
+        public string Comentario2 { get; set; }
+        public string Comentario3 { get; set; }
+        public string ImagemUrl { get; set; }
+        public string URL {get;set;}
+    }
+}

@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/BlazorTodoApp.csproj": {}
+  },
+  "projects": {
+    "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/BlazorTodoApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/BlazorTodoApp.csproj",
+        "projectName": "BlazorTodoApp",
+        "projectPath": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/BlazorTodoApp.csproj",
+        "packagesPath": "/home/amendes/.nuget/packages/",
+        "outputPath": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/amendes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.9.0, )"
+            },
+            "Twilio": {
+              "target": "Package",
+              "version": "[7.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,90 @@
+﻿@page "/"
+@using BlazorTodoApp.Pages.Componentes
+
+@inject IJSRuntime JS
+
+<PageTitle>Home</PageTitle>
+<InstallBanner />
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pão Francês</title>
+
+</head>
+
+<body>
+ <header>
+    <h1>
+      <img src="Assets/images/pao-1.jpeg"
+        style="width: 40px; height: 40px;border-radius: 20%; object-fit: cover;background: transparent;margin-top: 0px;" />
+      <span style="margin-left: 10px; font-size: 24px; font-weight: 600;">Pãozinho na Porta </span>
+    </h1>
+  </header>
+
+  <div class="container-pedido">
+    <div class="banner">
+
+      <div class="container">
+        <h3><span class="highlight">Nossa Missão:</span> Praticidade, Melhor Preço e Qualidade!</h3>
+
+        <p>Todos os dias, pães fresquinhos saem do forno direto para a sua casa, levando praticidade, qualidade e aquele
+          sabor especial que você merece.</p>
+
+        <p>✅ Entrega rápida ✅ Sem taxa ✅ Pães fresquinhos</p>
+
+        <p> Faça seu pedido e sinta o gostinho de ter mais praticidade e carinho no seu café da manhã.</p>
+
+        @* <a href="#" class="cta">Fique por dentro!</a> *@
+      </div>
+
+    </div>
+
+    <div class="cardapio container">
+      <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif;">
+        <thead>
+          <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ccc; padding: 10px;">🛍️ Produto</th>
+            <th style="border: 1px solid #ccc; padding: 10px;">🔢 Quantidade</th>
+            <th style="border: 1px solid #ccc; padding: 10px;">💰 Preço</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 10px;">Pão Francês</td>
+            <td style="border: 1px solid #ccc; padding: 10px;">4 Unidades</td>
+            <td style="border: 1px solid #ccc; padding: 10px;">3,00</td>
+
+          </tr>
+
+          <tr>
+            <td style="border: 1px solid #ccc; padding: 10px;">Bolo de Milho</td>
+            <td style="border: 1px solid #ccc; padding: 10px;">1 Unidade</td>
+            <td style="border: 1px solid #ccc; padding: 10px;">20,00</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+
+    <div>
+      <NavLink class="nav-link" href="/aceite">
+        <span class="oi oi-tablet" aria-hidden="true"></span> Leia o Termo de Aceite
+      </NavLink>
+
+    </div>
+    <button class="button cta" onclick="window.location='/counter'">FAZER PEDIDO</button>
+
+    <footer class="sidebar">
+      <CmpFooter />
+    </footer>
+  </div>
+</body>
+
+</html>

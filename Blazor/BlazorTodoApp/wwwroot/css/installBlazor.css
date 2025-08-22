@@ -1,0 +1,75 @@
+@keyframes floatIn {
+    from {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes floatOut {
+    from {
+        opacity: 1;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-60px);
+    }
+}
+
+.install-banner {
+    display: flex;
+    align-items: center;
+    background-color: #B7C7C0;
+    color: #4E342E;
+    padding: 12px 16px;
+    border-radius: 16px;
+    font-family: sans-serif;
+    max-width: 500px;
+    /* margin: -35px auto 1rem auto; */
+    margin: -35px auto ;
+    /* box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); */
+    position: relative;
+    z-index: 20;
+    transform: translateY(-20px);
+    animation: floatIn 0.9s ease-out;
+    opacity: 0.7; /* valor entre 0 e 1 */
+}
+
+.install-banner.hide {
+    animation: floatOut 0.6s ease forwards;
+}
+
+.hide {
+    animation: floatOut 0.6s ease forwards;
+}
+
+
+.logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 12px;
+    border-radius: 6px;
+}
+
+.text-content {
+    flex-grow: 1;
+}
+
+.install-link {
+    background-color: #73644F; /* cor de destaque no estilo da marca */
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.install-link:hover {
+    background-color: #FB8C00;
+    text-decoration: none;
+}

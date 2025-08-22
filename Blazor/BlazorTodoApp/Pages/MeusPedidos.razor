@@ -1,0 +1,42 @@
+@page "/MeusPedidos"
+@using BlazorTodoApp.Pages.Componentes
+
+@inject IJSRuntime JS
+
+<PageTitle>Pedidos</PageTitle>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Meus Pedidos</title>
+
+</head>
+
+<body>
+ <header>
+    <h1>
+      <img src="Assets/images/pao-1.jpeg"
+        style="width: 40px; height: 40px;border-radius: 20%; object-fit: cover;background: transparent;margin-top: 0px;" />
+      <span style="margin-left: 10px; font-size: 24px; font-weight: 600;">Pãozinho na Porta </span>
+    </h1>
+  </header>
+
+  <div class="container-pedido">
+    <div class="banner">
+      <div class="container">
+        <h3>Em breve, aqui aparecerão os seus pedidos! </h3>
+      </div>
+    </div>
+
+  </div>
+  <footer class="sidebar">
+    <CmpFooter />
+  </footer>
+
+</body>
+
+</html>

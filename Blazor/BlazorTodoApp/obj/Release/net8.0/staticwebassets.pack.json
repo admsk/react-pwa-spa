@@ -1,0 +1,745 @@
+{
+  "Files": [
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/obj/Release/net8.0/scopedcss/projectbundle/BlazorTodoApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/BlazorTodoApp.bundle.scp.css"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/Booking.com_ Confirmação.pdf",
+      "PackagePath": "staticwebassets/Assets/images/Booking.com_ Confirmação.pdf"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/banner.jpg",
+      "PackagePath": "staticwebassets/Assets/images/banner.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/delivery.jpeg",
+      "PackagePath": "staticwebassets/Assets/images/delivery.jpeg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/icon-192x192.jpg",
+      "PackagePath": "staticwebassets/Assets/images/icon-192x192.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/icon-32x32.jpg",
+      "PackagePath": "staticwebassets/Assets/images/icon-32x32.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/icon-48x48.jpg",
+      "PackagePath": "staticwebassets/Assets/images/icon-48x48.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/icon-512x512.jpg",
+      "PackagePath": "staticwebassets/Assets/images/icon-512x512.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/icon-72x72.jpg",
+      "PackagePath": "staticwebassets/Assets/images/icon-72x72.jpg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/pao-1.jpeg",
+      "PackagePath": "staticwebassets/Assets/images/pao-1.jpeg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/pedido.png",
+      "PackagePath": "staticwebassets/Assets/images/pedido.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/wpp-2.png",
+      "PackagePath": "staticwebassets/Assets/images/wpp-2.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/wpp-3.jpeg",
+      "PackagePath": "staticwebassets/Assets/images/wpp-3.jpeg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/Assets/images/wpp-3.png",
+      "PackagePath": "staticwebassets/Assets/images/wpp-3.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-144-144.png",
+      "PackagePath": "staticwebassets/icon-144-144.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-192-192.png",
+      "PackagePath": "staticwebassets/icon-192-192.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-48-48.png",
+      "PackagePath": "staticwebassets/icon-48-48.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-512-512.png",
+      "PackagePath": "staticwebassets/icon-512-512.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-72-72.png",
+      "PackagePath": "staticwebassets/icon-72-72.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/icon-96-96.png",
+      "PackagePath": "staticwebassets/icon-96-96.png"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/dayjs.min.js",
+      "PackagePath": "staticwebassets/js/dayjs/dayjs.min.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/af.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/af.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/am.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/am.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-dz.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-dz.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-iq.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-iq.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-kw.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-kw.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-ly.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-ly.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-ma.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-ma.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-sa.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-sa.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar-tn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar-tn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ar.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ar.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/az.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/az.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/be.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/be.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bg.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bg.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bm.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bm.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bn-bd.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bn-bd.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/br.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/br.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/bs.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/bs.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ca.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ca.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/cs.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/cs.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/cv.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/cv.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/cy.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/cy.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/da.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/da.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/de-at.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/de-at.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/de-ch.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/de-ch.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/de.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/de.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/dv.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/dv.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/el.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/el.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-au.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-au.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-ca.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-ca.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-gb.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-gb.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-ie.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-ie.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-il.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-il.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-in.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-in.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-nz.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-nz.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-sg.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-sg.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en-tt.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en-tt.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/en.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/en.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/eo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/eo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/es-do.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/es-do.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/es-mx.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/es-mx.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/es-pr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/es-pr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/es-us.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/es-us.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/es.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/es.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/et.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/et.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/eu.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/eu.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fa.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fa.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fr-ca.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fr-ca.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fr-ch.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fr-ch.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/fy.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/fy.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ga.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ga.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/gd.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/gd.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/gl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/gl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/gom-latn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/gom-latn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/gu.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/gu.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/he.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/he.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/hi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/hi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/hr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/hr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ht.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ht.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/hu.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/hu.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/hy-am.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/hy-am.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/id.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/id.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/index.d.ts",
+      "PackagePath": "staticwebassets/js/dayjs/locale/index.d.ts"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/is.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/is.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/it-ch.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/it-ch.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/it.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/it.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ja.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ja.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/jv.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/jv.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ka.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ka.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/kk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/kk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/km.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/km.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/kn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/kn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ko.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ko.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ku.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ku.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ky.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ky.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/lb.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/lb.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/lo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/lo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/lt.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/lt.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/lv.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/lv.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/me.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/me.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/mi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/mi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/mk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/mk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ml.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ml.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/mn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/mn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/mr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/mr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ms-my.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ms-my.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ms.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ms.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/mt.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/mt.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/my.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/my.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/nb.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/nb.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ne.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ne.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/nl-be.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/nl-be.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/nl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/nl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/nn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/nn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/oc-lnc.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/oc-lnc.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/pa-in.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/pa-in.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/pl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/pl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/pt-br.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/pt-br.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/pt.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/pt.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/rn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/rn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ro.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ro.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ru.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ru.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/rw.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/rw.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sd.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sd.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/se.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/se.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/si.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/si.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sq.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sq.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sr-cyrl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sr-cyrl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ss.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ss.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sv-fi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sv-fi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sv.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sv.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/sw.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/sw.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ta.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ta.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/te.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/te.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tet.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tet.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tg.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tg.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/th.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/th.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tl-ph.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tl-ph.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tlh.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tlh.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tr.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tr.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/types.d.ts",
+      "PackagePath": "staticwebassets/js/dayjs/locale/types.d.ts"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tzl.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tzl.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tzm-latn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tzm-latn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/tzm.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/tzm.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ug-cn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ug-cn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/uk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/uk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/ur.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/ur.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/uz-latn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/uz-latn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/uz.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/uz.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/vi.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/vi.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/x-pseudo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/x-pseudo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/yo.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/yo.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/zh-cn.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/zh-cn.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/zh-hk.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/zh-hk.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/zh-tw.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/zh-tw.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/js/dayjs/locale/zh.js",
+      "PackagePath": "staticwebassets/js/dayjs/locale/zh.js"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/manifest.json",
+      "PackagePath": "staticwebassets/manifest.json"
+    },
+    {
+      "Id": "/home/amendes/Documents/lab/Blazor/BlazorTodoApp/wwwroot/service-worker.js",
+      "PackagePath": "staticwebassets/service-worker.js"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.BlazorTodoApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.build.BlazorTodoApp.props",
+      "PackagePath": "build\\BlazorTodoApp.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildMultiTargeting.BlazorTodoApp.props",
+      "PackagePath": "buildMultiTargeting\\BlazorTodoApp.props"
+    },
+    {
+      "Id": "obj/Release/net8.0/staticwebassets/msbuild.buildTransitive.BlazorTodoApp.props",
+      "PackagePath": "buildTransitive\\BlazorTodoApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
